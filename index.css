@@ -1,4 +1,11 @@
-.home_container {
+/* cdn import */
+
+/* 폰트 적용 */
+body {
+    font-family: "Nanum Pen Script", sans-serif;
+}
+/* 공통된 부분 스타일링 */
+.container {
     background-image: url("./images/background_image.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,16 +21,21 @@
     box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
-.image {
-    border-radius: 10px;
+span {
+    font-size: 45px;
 }
 
+.home_btn {
+    margin-right: 40px;
+}
+
+/* 메인 페이지 스타일링 */
 .name {
     font-size: 50px;
     margin-bottom: 40px;
 }
 
-a {
+.menu a {
     text-decoration: none; /* 변경 */
     color: black;
     font-size: 30px;
@@ -48,4 +60,11 @@ a {
 
 .url ul {
     list-style-type: none;
+}
+
+/* About 페이지 스타일링 */
+
+.content {
+    font-size: 30px;
+    width: 430px;
 }
