@@ -43,9 +43,17 @@ span {
     text-align: right;
 }
 
+.menu a:hover {
+    color: gray;
+}
+
 .menu {
     display: flex;
     flex-direction: column;
+    text-align: right;
+}
+.menu li {
+    list-style-type: none;
 }
 
 .home {
@@ -67,4 +75,24 @@ span {
 .content {
     font-size: 30px;
     width: 430px;
+}
+
+/* Projects 페이지 스타일링 */
+a {
+    text-decoration: none; /* 변경 */
+    color: black;
+}
+.project_link:hover {
+    color: gray;
+}
+
+/* nodebird 페이지 스타일링 */
+.nodebird_content {
+    border-radius: 10px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.nodebird_content li {
+    margin-bottom: 10px;
 }
